@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.arunkr.postsharer">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.arunkr.postsharer.activity.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.arunkr.postsharer.activity.SignUp"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.arunkr.postsharer.activity.ViewPostsActivity"/>
+        <activity
+            android:name="com.arunkr.postsharer.activity.ProfilePageActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.arunkr.postsharer.activity.ViewPostsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.arunkr.postsharer.activity.ViewPostsActivity"/>
+        </activity>
+        <activity
+            android:name="com.arunkr.postsharer.activity.MakePostActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName="com.arunkr.postsharer.activity.ViewPostsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.arunkr.postsharer.activity.ViewPostsActivity"/>
+            >
+        </activity>
+        <activity android:name="com.arunkr.postsharer.activity.PasswordReset"
+                  android:launchMode="singleTop"
+                  android:parentActivityName="com.arunkr.postsharer.activity.LoginActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.arunkr.postsharer.activity.LoginActivity"/>
+            >
+        </activity>
+    </application>
+
+</manifest>

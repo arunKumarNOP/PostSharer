@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Post Sharer</string>
+    <string name="already_signed_up">Already signed up? Sign in here</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_pass">Forgot password? Click here to reset</string>
+    <string name="reset_pass">Reset Password</string>
+    <string name="invalid_email">Email is invalid or not yet registered</string>
+    <string name="reseting_pass">Sending password reset email</string>
+    <string name="reset_email_send">Email to reset the password has been send to your email id</string>
+
+    <string name="username_hint">Enter email</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="not_sign_up">Click here to Sign Up</string>
+    <string name="post_image">Post Image</string>
+    <string name="post_txt_msg">Post Text Message</string>
+    <string name="enter_mgs_hint">Enter a message</string>
+    <string name="email_id">Email ID:</string>
+    <string name="user_name">Name:</string>
+    <string name="enter_user_name_hint">Enter Email</string>
+    <string name="profile_save_changes">Save changes</string>
+    <string name="profile_page_desc">Click the profile picture image to add or edit the image.</string>
+    <string name="login_validation_error">Email or password format is wrong.</string>
+
+    <string name="default_username">Anonymous</string>
+
+    <string name="signup_sucess">Successfully signed up</string>
+    <string name="signup_failure">Failed to signup</string>
+    <string name="login_failure">Login Failure</string>
+    <string name="logout">Logout</string>
+    <string name="view_profile">Profile</string>
+    <string name="view_posts">Posts</string>
+    <string name="view_reset_pass">Reset Password</string>
+    <string name="make_post">Make new post</string>
+    <string name="logging_in">Logging in...</string>
+    <string name="signing_up">Signing up...</string>
+    <string name="upload_err">Error while uploading image</string>
+</resources>

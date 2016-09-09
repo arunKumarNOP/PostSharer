@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="profile_pic">80dp</dimen>
+    <dimen name="max_post_image">400dp</dimen>
+    <dimen name="login_signup_view_margin">10dp</dimen>
+    <integer name="msg_max_length">120</integer>
+    <integer name="username_max_length">30</integer>
+    <dimen name="make_post_view_margin">20dp</dimen>
+
+    <dimen name="profile_pic_dimen">200dp</dimen>
+
+</resources>

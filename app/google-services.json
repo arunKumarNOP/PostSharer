@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "45677680514",
+    "firebase_url": "https://postsharer-c55ac.firebaseio.com",
+    "project_id": "postsharer-c55ac",
+    "storage_bucket": "postsharer-c55ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45677680514:android:cf42e473ea87cd37",
+        "android_client_info": {
+          "package_name": "com.arunkr.postsharer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45677680514-s0b46rf2eeb09005m5eggnnld8t97i86.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arunkr.postsharer",
+            "certificate_hash": "1537D16FE2259E757CFC1FE06C783A06892073EF"
+          }
+        },
+        {
+          "client_id": "45677680514-2ketc0071esk0d9kmpmbtpr3ukfi2qao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD1GJirc4vFpu3OYdWbYWt6f06DRGsRtU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
