@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.arunkr.postsharer.R;
 import com.arunkr.postsharer.helpers.ImageOperations;
@@ -59,6 +60,8 @@ public class MakePostActivity extends AppCompatActivity implements View.OnClickL
             case R.id.make_post_btn_img:
                 if(selectedBitmap!=null)
                 {
+                    btnPostImage.setEnabled(false);
+                    Toast.makeText(this,"Uploading Image..",Toast.LENGTH_LONG).show();
                     uploadImage();
                 }
                 break;
@@ -87,6 +90,7 @@ public class MakePostActivity extends AppCompatActivity implements View.OnClickL
     {
         if(requestCode ==Utils.GET_IMAGE && resultCode==RESULT_OK)
         {
+
             ImageOperations.performCrop(MakePostActivity.this,data.getData(),false);
         }
         else if(requestCode==Utils.PIC_CROP && resultCode == RESULT_OK)
