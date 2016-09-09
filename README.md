@@ -1,5 +1,5 @@
 # PostSharer
-A small Android proect using Firebase to share posts among users having same email domains.
+A small Open source Android project using Firebase to share posts among users having same email domains.
 
 I coded this for a challenge and thought it might be useful to someone.
 
@@ -16,6 +16,10 @@ There might me bugs and designs issues, feel free to let me know if you find one
 * Firebase Auth -> For Sign-Up and Login feature.
 * Firebase Storage -> To store profile picture and images posted.
 * Firebase Database -> To store information like User's Display name and Posts.
+
+#License
+Licensed under GNU GPLv3.
+Feel free to use it.
 
 #Authors
 Arun Shreevastava
